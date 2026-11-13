@@ -237,7 +237,7 @@ function App() {
             </a>
 
             <a
-              href="/Diana-Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Diana-Resume.pdf`}
               download="Diana-Resume.pdf"
               className="secondary-button"
             >
